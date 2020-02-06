@@ -34,3 +34,7 @@ class Rectangle(val height: Int, val width: Int) {
         return height == width
     }
 }
+
+enum class Color {
+    RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET
+}
